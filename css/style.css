@@ -1,0 +1,27 @@
+body{
+margin: 0;
+padding: 0;
+font-size: 14pt;
+line-height: 1.5;
+}
+body a{
+text-decoration: none;
+}
+th{
+padding: 0.25em 1em;
+text-align: left;
+}
+td{
+padding: 0.25em 1em;
+text-align: left;
+}
+.none{
+display: none;
+}
+.sidebar{
+width: 20%;
+}
+.content{
+width: 80%;
+margin: 0 1rem;
+}
