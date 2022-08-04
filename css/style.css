@@ -25,3 +25,11 @@ width: 20%;
 width: 80%;
 margin: 0 1rem;
 }
+.view_code{
+background-color: rgb(230 230 230 / 50%);
+padding: 0.1em 0 0.1em 1em;
+margin: 1em 0;
+}
+.col_code{
+color: rgb(0 155 255);
+}

@@ -18,7 +18,7 @@
             ?>
         </div>
         <div class="content">
-            <h2>Данные</h2>
+            <h2>Дата</h2>
             <div>
                 <h3>Временные данные</h3>
                 <p><i>Время по Гринвичу</i> <b>GTM</b> (Greenwich Mean Time).
