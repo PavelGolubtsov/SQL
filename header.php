@@ -150,8 +150,7 @@ function removeAttributeSearchInput2(){
         search_input_submit2.setAttribute('disabled', true)
         search_input_submit2.classList.remove("color_green")
     }
-
-}        
+} 
 search_input_text1.addEventListener('input', removeAttributeSearchInput1)
 search_input_text2.addEventListener('input', removeAttributeSearchInput2)
 /* Конец не активная кнопка поиска */
