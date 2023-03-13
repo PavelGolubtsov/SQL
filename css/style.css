@@ -33,3 +33,6 @@ margin: 1em 0;
 .col_code{
 color: rgb(0 155 255);
 }
+.sql_construct{
+color: rgb(0, 0, 255);
+}

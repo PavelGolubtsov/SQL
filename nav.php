@@ -27,14 +27,17 @@
         <a href="/content/where.php">
             <li>WHERE</li>
         </a>
-        <a href="/content/order_by.php">
-            <li>ORDER BY</li>
-        </a>
         <a href="/content/join.php">
             <li>JOIN</li>
         </a>
         <a href="/content/outer_join.php">
             <li>OUTER JOIN</li>
+        </a>
+        <a href="/content/with.php">
+            <li>WITH</li>
+        </a>
+        <a href="/content/order_by.php">
+            <li>ORDER BY</li>
         </a>
         <a href="/content/mnogestva.php">
             <li>Множества</li>
