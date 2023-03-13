@@ -37,8 +37,8 @@
                 <p>SET time_zone = 'Europe/Zurich';
                 <p>Показать текущее время:
                 <p>CURRENT_TIMESTAMP();
-                <p>
-                <p>
+                <p><b>Показать все таблицы БД</b>
+                <p>SELECT * FROM Sys.Tables
             </div>
         </div>
     </div>

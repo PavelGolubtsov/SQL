@@ -9,17 +9,17 @@
 </head>
 <body>
     <?php
-        require('header.php');
+        require_once('header.php');
     ?>
     <div class="container_flex">
         <div class="sidebar">
             <?php
-                require('nav.php');
+                require_once('nav.php');
             ?>
         </div>
         <div class="content">
             <h1>SQL</h1>
-            <p><i><b>DDL</b></i> – <i>Data Definition Language</i> (язык описания данных), служит для создания/изменения/удаления таблиц и связей.
+            <p><i><b>DDL</b></i> – <i>Data Definition Language</i> (язык определения данных), служит для создания/изменения/удаления таблиц и связей.
             <p><b>CREATE</b> - для создания объектов базы данных
             <p><b>ALTER</b> - для изменения объектов базы данных
             <p><b>DROP</b> - для удаления объектов базы данных
@@ -29,7 +29,7 @@
             <p><b>UPDATE</b> – обновление данных
             <p><b>DELETE</b> – удаление данных
             <p><b>MERGE</b> – слияние данных
-            <p>
+            <p><i><b>DCL</b></i> – <i>Data Control Language</i> (язык управления данными), служит для управления правами доступа.</p>
             <p>
             <p>
         </div>
