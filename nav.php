@@ -18,6 +18,15 @@
         <a href="/content/sequence.php">
             <li>Последовательности</li>
         </a>
+        <a href="/content/insert.php">
+            <li>INSERT</li>
+        </a>
+        <a href="/content/update.php">
+            <li>UPDATE</li>
+        </a>
+        <a href="/content/delete.php">
+            <li>DELETE</li>
+        </a>
         <a href="/content/select.php">
             <li>SELECT</li>
         </a>

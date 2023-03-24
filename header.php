@@ -86,50 +86,52 @@ width: 100%;
 }
 }
 </style>
-<header>
-<div class="header_container">
-    <div class="header_container_flex">
-        <div style="flex: 1;">
-            <p>Главная</p>
-        </div>
-        <div class="header_search_container">
-            <div class="header_container_title">
-                <div id="search_vendor_code" class="header_content_item header_act">
-                    <p>По артикулу</p>
-                </div>
-                <div id="search_name_part" class="header_content_item">
-                    <p>По наименованию</p>
-                </div>
+<header style="
+    box-shadow: 0px 1px 4px 1px #a8a8a8, 0px -1px 4px 1px #c3c3c3;
+    margin-top: 1px;">
+    <div class="header_container">
+        <div class="header_container_flex">
+            <div style="flex: 1;">
+                <p>Главная</p>
             </div>
-            <div class="header_container_search">
-                <div id="content_search_vendor_code" class="">
-                    <form action="">
-                        <div class="search_container_relative">
-                            <div>
-                                <input id="search_input_text1" class="search_input_text" type="text" placeholder="Введите артикул">
-                            </div>
-                            <div>
-                                <input id="search_input_submit1" class="search_input_submit" type="submit" value="" disabled>
-                            </div>
-                        </div>
-                    </form>
+            <div class="header_search_container" style="margin: 6px 0;">
+                <div class="header_container_title">
+                    <div id="search_vendor_code" class="header_content_item header_act">
+                        <p>По артикулу</p>
+                    </div>
+                    <div id="search_name_part" class="header_content_item">
+                        <p>По наименованию</p>
+                    </div>
                 </div>
-                <div id="content_search_name_part" class="none">
-                    <form action="">
-                        <div class="search_container_relative">
-                            <div>
-                                <input id="search_input_text2" class="search_input_text" type="text" placeholder="Введите наименование">
+                <div class="header_container_search">
+                    <div id="content_search_vendor_code" class="">
+                        <form action="">
+                            <div class="search_container_relative">
+                                <div>
+                                    <input id="search_input_text1" class="search_input_text" type="text" placeholder="Введите артикул">
+                                </div>
+                                <div>
+                                    <input id="search_input_submit1" class="search_input_submit" type="submit" value="" disabled>
+                                </div>
                             </div>
-                            <div>
-                                <input id="search_input_submit2" class="search_input_submit" type="submit" value="" disabled>
+                        </form>
+                    </div>
+                    <div id="content_search_name_part" class="none">
+                        <form action="">
+                            <div class="search_container_relative">
+                                <div>
+                                    <input id="search_input_text2" class="search_input_text" type="text" placeholder="Введите наименование">
+                                </div>
+                                <div>
+                                    <input id="search_input_submit2" class="search_input_submit" type="submit" value="" disabled>
+                                </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 <script>
 /* Кнопки поиска*/
 /* Не активная кнопка поиска */
@@ -150,7 +152,7 @@ function removeAttributeSearchInput2(){
         search_input_submit2.setAttribute('disabled', true)
         search_input_submit2.classList.remove("color_green")
     }
-} 
+}
 search_input_text1.addEventListener('input', removeAttributeSearchInput1)
 search_input_text2.addEventListener('input', removeAttributeSearchInput2)
 /* Конец не активная кнопка поиска */

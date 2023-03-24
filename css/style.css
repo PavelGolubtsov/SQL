@@ -36,3 +36,7 @@ color: rgb(0 155 255);
 .sql_construct{
 color: rgb(0, 0, 255);
 }
+.yellow_page{
+padding: 5px 10px;
+background-color: rgba(255, 157, 0, 0.3);
+}
